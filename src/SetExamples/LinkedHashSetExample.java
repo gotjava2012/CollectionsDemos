@@ -1,3 +1,4 @@
+package SetExamples;
 import java.util.*;
 
 class LinkedHashSetExample {
