@@ -11,6 +11,13 @@ class SetandHashSet {
         /***
          * Uses when you don't want duplicates in a collection
          * A set can not contain any duplicates.  So you can dump a list into a set and remove duplicates
+         * A HashSet is an intrinsic part of Java's collections framework. It is designed to store unique elements in an unordered manner. 
+         * As a class derived from the AbstractSet class and implementing the Set interface, 
+         * a HashSet doesn't conform to the order in which elements are added. 
+         * This gives its users the freedom not to maintain any sequencing while ensuring every stored element is distinct.
+         * A HashSet stands out among Set implementations due to its ability to eliminate duplicate data. 
+         * This makes it highly efficient when we need to swiftly check if an item exists in a collection or when we want 
+         * to store only the unique data.
          */
         
         Set<String> namSet = new HashSet<>();
@@ -51,6 +58,7 @@ class SetandHashSet {
         System.out.println(intSet2);
 
         // Constant time with add, remove or lookups with a Hashset no matter how big or small it is
+        //HashSet's O(1) complexity in methods like .add() and .contains().
 
     }
 }
